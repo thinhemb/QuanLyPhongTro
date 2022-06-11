@@ -1,7 +1,7 @@
-CREATE DATABASE QLPT
+CREATE DATABASE QL
 GO
 
-USE QLPT
+USE QL
 GO
 
 create table tblQlyPhongTro( 
