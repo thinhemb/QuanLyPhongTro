@@ -143,7 +143,6 @@ public class Them_HoaDon extends javax.swing.JFrame {
         btnSave.setBackground(new java.awt.Color(0, 153, 153));
         btnSave.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         btnSave.setForeground(new java.awt.Color(255, 255, 255));
-        btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaswing/image/icons8_save_25px.png"))); // NOI18N
         btnSave.setText("Lưu");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

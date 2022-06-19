@@ -98,6 +98,7 @@ public class Login extends javax.swing.JFrame {
 
         txtUserName.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         txtUserName.setForeground(new java.awt.Color(255, 51, 51));
+        txtUserName.setText("admin");
         txtUserName.setBorder(null);
 
         jLabel2.setBackground(new java.awt.Color(255, 102, 0));
@@ -161,6 +162,7 @@ public class Login extends javax.swing.JFrame {
 
         txtPass.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         txtPass.setForeground(new java.awt.Color(255, 51, 51));
+        txtPass.setText("admin");
         txtPass.setBorder(null);
 
         jLabel4.setBackground(new java.awt.Color(255, 102, 0));
@@ -222,9 +224,9 @@ public class Login extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(btnClose, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(89, 89, 89)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(77, 77, 77)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(13, 13, 13)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)

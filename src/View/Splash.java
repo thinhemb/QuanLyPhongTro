@@ -129,7 +129,7 @@ public class Splash extends javax.swing.JFrame {
         sp.setLocationRelativeTo(null);
         try {
             for (int i = 0; i <= 100; i++) {
-                Thread.sleep(10);
+                Thread.sleep(20);
                 sp.txtLoadingValue.setText(i + "%");
                 if (i == 10) {
                     sp.LoadingLabel.setText("Turing On Modules...");

@@ -6,6 +6,7 @@ package Controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import net.sourceforge.jtds.jdbcx.proxy.ConnectionProxy;
 
 /**
  *
@@ -33,5 +34,6 @@ public class Connections {
                 }
 		
 	}
+        
 
 }
