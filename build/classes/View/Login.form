@@ -81,13 +81,13 @@
               <Color blue="0" green="66" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Century Gothic" size="24" style="1"/>
+              <Font name="Times New Roman" size="24" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="QUAN L&#xdd; PH&#xd2;NG TRO"/>
+            <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xdd; PH&#xd2;NG TR&#x1ecc;"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
@@ -126,7 +126,7 @@
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel2" alignment="1" pref="154" max="32767" attributes="0"/>
+                              <Component id="jLabel2" alignment="1" pref="143" max="32767" attributes="0"/>
                               <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>

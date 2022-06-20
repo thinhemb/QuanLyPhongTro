@@ -94,7 +94,7 @@ public class Them_Phongtro extends javax.swing.JFrame {
 
         cbNam.setText("Nam");
 
-        cbNu.setText("Nu");
+        cbNu.setText("Nữ");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

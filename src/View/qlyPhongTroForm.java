@@ -123,10 +123,8 @@ public class qlyPhongTroForm extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane2.setViewportView(jTextArea1);
 
-        jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setText("Nam");
 
-        jCheckBox2.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox2.setText("Nữ");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));

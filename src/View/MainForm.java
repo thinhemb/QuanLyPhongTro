@@ -1032,11 +1032,16 @@ public class MainForm extends javax.swing.JFrame {
         rdNam.setSelected(true);
         rdNam.setText("Nam");
         rdNam.setEnabled(false);
+        rdNam.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rdNamActionPerformed(evt);
+            }
+        });
 
         rdNu.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroup1.add(rdNu);
         rdNu.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        rdNu.setText("Nu");
+        rdNu.setText("Nữ");
         rdNu.setEnabled(false);
 
         btnSaveKT.setBackground(new java.awt.Color(0, 204, 204));
@@ -2603,6 +2608,10 @@ public class MainForm extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnSearch_HD1ActionPerformed
 
+    private void rdNamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdNamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rdNamActionPerformed
+
     public static void setTableDataPhongTro(List<PhongTro> phongTro) {
         dtmPT.setRowCount(0);
         for (PhongTro pt : phongTro) {
@@ -2820,7 +2829,7 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JRadioButton rdNam;
     private javax.swing.JRadioButton rdNu;
     public javax.swing.JTabbedPane tabbed;
-    private javax.swing.JTable tbHoaDon;
+    private static javax.swing.JTable tbHoaDon;
     private javax.swing.JTable tblChiSoDien;
     private javax.swing.JTable tblChiSoNuoc;
     private static javax.swing.JTable tblDSPT;

@@ -278,7 +278,7 @@
             </Component>
             <Component class="javax.swing.JCheckBox" name="cbNu">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Nu"/>
+                <Property name="text" type="java.lang.String" value="N&#x1eef;"/>
               </Properties>
             </Component>
           </SubComponents>
